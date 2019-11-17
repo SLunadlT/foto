@@ -1,0 +1,56 @@
+.contenido {
+  width: 900px;
+  margin: auto;
+  display: flex;
+	flex-direction: column;
+}
+
+body {
+  font-family: 'Dancing Script', cursive;
+  background-color: #02010a;
+}
+
+header {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #5b7989;
+}
+
+h1 {
+  color: white;
+  margin-left: 25px;
+  float: left;
+  display: inline-block;
+}
+
+#menu-principal a {
+  color: white;
+  font-size: 25px;
+  float: right;
+  display: inline-block;
+  margin-right: 15px;
+
+}
+
+#imagen-central {
+  background-color: #82c3a6;
+}
+
+#imagen-secundaria{
+  background-color: #d5c75f;
+  border-width: 1px;
+}
+footer {
+  background-color: #C6d5c5;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+h3 p {
+  font-size: 7em;
+  font-style: normal;
+}
