@@ -1,5 +1,5 @@
 .contenido {
-  width: 900px;
+  max-width: 900px;
   margin: auto;
   display: flex;
 	flex-direction: column;
@@ -11,44 +11,80 @@ body {
 }
 
 header {
+  display: flex;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   background-color: #5b7989;
+  justify-content: space-between;
+  align-items: center;
 }
 
 h1 {
   color: white;
   margin-left: 25px;
-  float: left;
-  display: inline-block;
 }
 
 #menu-principal a {
   color: white;
+  flex-direction: row;
   font-size: 25px;
-  float: right;
-  display: inline-block;
   margin-right: 15px;
-
 }
 
 #imagen-central {
   background-color: #82c3a6;
 }
 
+#imagen-central figure{
+  margin: 20px 60px;
+}
+
+#imagen-central figure img {
+  width: 100%;
+}
+
 #imagen-secundaria{
   background-color: #d5c75f;
   border-width: 1px;
+  margin: 0;
+	padding: 0;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow:
+  justify-content: space-between;
+  width: 100%;
 }
+
+.acceso-paisajes figure img {
+    width: 100%
+}
+
+.acceso-retratos figure img {
+    width: 100%
+}
+
+figcaption {
+  text-align: center;
+  font-size: 25px;
+}
+
 footer {
   background-color: #C6d5c5;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  display: flex;
+  flex-direction: row;
+    }
+
+footer div{
+  flex: 1;
+  text-align: left;
+  margin: 25px 40px;
 }
 
 h3 {
   font-weight: bold;
-}
+  }
 
 h3 p {
   font-size: 7em;
