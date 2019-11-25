@@ -97,7 +97,6 @@ img {
     filter: drop-shadow(2px 2px 2px #82c3a6);
 }
 
-
 figcaption {
   text-align: center;
   font-size: 25px;
@@ -128,6 +127,15 @@ h3 {
 h3 p {
   font-size: 7em;
   font-style: normal;
+}
+
+.contactos a[href]:link, .redes-sociales a[href]:visited{
+  text-decoration: none;
+  color: black;
+}
+.redes-sociales a[href]:link, .redes-sociales a[href]:visited{
+  text-decoration: none;
+  color: black;
 }
 
 /*Estilos para página Paisajes*/
@@ -263,26 +271,25 @@ img[src="../images/retrato_8.jpg"]{
 
 
 @media (max-width:899px) {
-  .contenido {
+    .contenido {
       width: 100%;
-        }
+    }
 
-
-  header {
-    display: flex;
-    flex-direction: column;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    background-color: #5b7989;
-    text-align: center;
-    padding-bottom: 3vh;
-          }
+    header {
+      display: flex;
+      flex-direction: column;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      background-color: #5b7989;
+      text-align: center;
+      padding-bottom: 3vh;
+    }
 
     #imagen-central {
       display: flex;
       flex-direction: column;
-
     }
+
     #imagen-central figure{
       margin: 20px 40px;
     }
@@ -298,16 +305,16 @@ img[src="../images/retrato_8.jpg"]{
     }
 
     #galeria-paisajes {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
     }
 
     #galeria-paisajes figure {
-    width: 85%;
-    margin: auto;
-    margin-top: 15px;
-    margin-bottom: 15px;
+      width: 85%;
+      margin: auto;
+      margin-top: 15px;
+      margin-bottom: 15px;
     }
 
     #galeria-paisajes figure img{
@@ -318,18 +325,18 @@ img[src="../images/retrato_8.jpg"]{
       display: flex;
       flex-direction: column;
       justify-content: center;
-  }
+    }
 
     #galeria-retratos figure {
       width: 85%;
       margin: auto;
       margin-top: 15px;
       margin-bottom: 15px;
-      }
+    }
 
-      #galeria-retratos figure img{
-        width: 100%;
-      }
+    #galeria-retratos figure img{
+      width: 100%;
+    }
 
     footer {
       display: flex;
